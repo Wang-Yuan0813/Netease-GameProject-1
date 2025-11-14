@@ -1,0 +1,228 @@
+{
+    "300003": {
+        "0": {
+            "Longitude": 15.0, 
+            "RotationY": 360.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    144.00000661611557, 
+                    156.00000590085983, 
+                    218.00000220537186
+                ]
+            }, 
+            "SunColorIntensity": 0.800000011920929, 
+            "time": 0.0
+        }, 
+        "1": {
+            "Longitude": 20.0, 
+            "RotationY": 345.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    144.00000661611557, 
+                    156.00000590085983, 
+                    218.00000220537186
+                ]
+            }, 
+            "SunColorIntensity": 0.800000011920929, 
+            "time": 1.0
+        }, 
+        "2": {
+            "Longitude": 24.0, 
+            "RotationY": 330.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    144.00000661611557, 
+                    156.00000590085983, 
+                    218.00000220537186
+                ]
+            }, 
+            "SunColorIntensity": 1.0, 
+            "time": 2.0
+        }, 
+        "4": {
+            "Longitude": 32.0, 
+            "RotationY": 300.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    140.00000685453415, 
+                    164.00000542402267, 
+                    219.0000021457672
+                ]
+            }, 
+            "SunColorIntensity": 1.399999976158142, 
+            "time": 4.0
+        }, 
+        "6": {
+            "Longitude": 40.0, 
+            "RotationY": 270.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    161.0000056028366, 
+                    176.00000470876694, 
+                    199.0000033378601
+                ]
+            }, 
+            "SunColorIntensity": 1.0, 
+            "time": 6.0
+        }, 
+        "8": {
+            "Longitude": 35.0, 
+            "RotationY": 240.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    92.00000211596489, 
+                    73.00000324845314, 
+                    28.000000230968
+                ]
+            }, 
+            "SunColorIntensity": 1.0, 
+            "time": 8.0
+        }, 
+        "10": {
+            "Longitude": 30.0, 
+            "RotationY": 210.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    147.00000643730164, 
+                    165.00000536441803, 
+                    139.0000069141388
+                ]
+            }, 
+            "SunColorIntensity": 1.5, 
+            "time": 10.0
+        }, 
+        "12": {
+            "Longitude": 25.0, 
+            "RotationY": 180.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    140.00000685453415, 
+                    156.00000590085983, 
+                    149.00000631809235
+                ]
+            }, 
+            "SunColorIntensity": 2.0, 
+            "time": 12.0
+        }, 
+        "13": {
+            "Longitude": 22.5, 
+            "RotationY": 165.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    150.0000062584877, 
+                    161.0000056028366, 
+                    154.00000602006912
+                ]
+            }, 
+            "SunColorIntensity": 2.0999999046325684, 
+            "time": 13.0
+        }, 
+        "14": {
+            "Longitude": 20.0, 
+            "RotationY": 150.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    164.00000542402267, 
+                    172.00000494718552, 
+                    159.0000057220459
+                ]
+            }, 
+            "SunColorIntensity": 2.5, 
+            "time": 14.0
+        }, 
+        "16": {
+            "Longitude": 30.0, 
+            "RotationY": 120.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    184.00000423192978, 
+                    228.0000016093254, 
+                    211.00000262260437
+                ]
+            }, 
+            "SunColorIntensity": 2.0, 
+            "time": 16.0
+        }, 
+        "18": {
+            "Longitude": 40.0, 
+            "RotationY": 90.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    199.0000033378601, 
+                    189.00000393390656, 
+                    175.00000476837158
+                ]
+            }, 
+            "SunColorIntensity": 1.899999976158142, 
+            "time": 18.0
+        }, 
+        "20": {
+            "Longitude": 32.0, 
+            "RotationY": 60.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    140.00000685453415, 
+                    164.00000542402267, 
+                    219.0000021457672
+                ]
+            }, 
+            "SunColorIntensity": 1.2000000476837158, 
+            "time": 20.0
+        }, 
+        "22": {
+            "Longitude": 24.0, 
+            "RotationY": 30.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    144.00000661611557, 
+                    156.00000590085983, 
+                    218.00000220537186
+                ]
+            }, 
+            "SunColorIntensity": 1.0, 
+            "time": 22.0
+        }, 
+        "23": {
+            "Longitude": 20.0, 
+            "RotationY": 15.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    144.00000661611557, 
+                    156.00000590085983, 
+                    218.00000220537186
+                ]
+            }, 
+            "SunColorIntensity": 0.800000011920929, 
+            "time": 23.0
+        }, 
+        "24": {
+            "Longitude": 15.0, 
+            "RotationY": 0.0, 
+            "SunColor": {
+                "__tuple__": true, 
+                "items": [
+                    144.00000661611557, 
+                    156.00000590085983, 
+                    218.00000220537186
+                ]
+            }, 
+            "SunColorIntensity": 0.800000011920929, 
+            "time": 24.0
+        }
+    }
+}

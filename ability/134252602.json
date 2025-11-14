@@ -1,0 +1,103 @@
+{
+    "local_variable": {
+        "1714618370": {
+            "variable_dict": {
+                "FLOAT": {}, 
+                "POINT": {}, 
+                "SFX_ENTITY": {
+                    "\u5f53\u524d\u7279\u6548": 0
+                }, 
+                "UNIT_GROUP": {
+                    "\u5468\u56f4\u5355\u4f4d\u5217\u8868": []
+                }
+            }, 
+            "variable_length_dict": {
+                "\u5468\u56f4\u5355\u4f4d\u5217\u8868": 0, 
+                "\u5f53\u524d\u7279\u6548": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "1714618370": {
+            "action": [
+                {
+                    "action_type": "CREATE_UNIT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                134234031
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "ABILITY_OWNER"
+                                }
+                            ], 
+                            "sub_type": "UNIT_ENTITY_POINT"
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        180.0
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_ANGLE_BY_FLOAT"
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1714618370000512, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1714618370000002, 
+                    "enable": true, 
+                    "event_type": "ABILITY_SP_END"
+                }
+            ], 
+            "group_id": 134252602, 
+            "p_trigger_id": null, 
+            "trigger_id": 1714618370, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    1714618370, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                ]
+            ], 
+            "key": 134252602, 
+            "name": "134252602"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

@@ -1,0 +1,353 @@
+{
+    "trigger_dict": {
+        "164937748": {
+            "action": [
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                [
+                                    8495923400014, 
+                                    "\u5224\u65ad\u73a9\u5bb6\u662f\u5426\u8fd8\u5728\u6e38\u620f\u4e2d\uff0c\u5982\u679c\u6ca1\u6709\uff0c\u5219\u65e0\u9700\u5237\u65b0\u79fb\u52a8\u72b6\u6001", 
+                                    849592340, 
+                                    "condition_type"
+                                ], 
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100180, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_ROLE_STATUS"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100180, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "PLAYER_STATE_COMPARE", 
+                                    "element_id": 164937748000002, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100177, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [], 
+                                                            "sub_type": "GET_CLIENT_ROLE"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "PLAYER_ID_NUMBER"
+                                                }
+                                            ], 
+                                            "op_arg": [], 
+                                            "op_arg_enable": [], 
+                                            "sub_type": "9441fa11f75711ec8a6aa4bb6d41b622"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "call_rt_arg_idxes": [], 
+                                    "element_id": 164937748000003, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 164937748000004, 
+                    "enable": true, 
+                    "fake_op": []
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                [
+                    1087624355, 
+                    "\u9700\u8981\u6bcf\u9694\u4e00\u6bb5\u65f6\u95f4\u5237\u65b0\u4e00\u6b21\u79fb\u52a8\u72b6\u6001\uff0c\u4ee5\u7ef4\u6301\u5355\u4f4d\u7684\u79fb\u52a8", 
+                    164937748, 
+                    "event_type"
+                ], 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 164937748000001, 
+                    "enable": true, 
+                    "event_type": "GAME_ELAPSE_REPEAT"
+                }
+            ], 
+            "group_id": "7TIigIRQEe6yMWwkCM0y6J", 
+            "p_trigger_id": null, 
+            "trigger_id": 164937748, 
+            "trigger_name": "\u79fb\u52a8\u72b6\u6001\u66f4\u65b0", 
+            "valid": true
+        }, 
+        "1485271047": {
+            "action": [
+                [
+                    1547837328, 
+                    "\u8fd9\u91cc\u5176\u5b9e\u5c31\u662f\u672c\u5730\u73a9\u5bb6\uff0c\u56e0\u4e3a\u4e0d\u8054\u673a", 
+                    1485271047, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_CLIENT_ROLE"
+                                        }
+                                    ], 
+                                    "sub_type": "PLAYER_ID_NUMBER"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "9441fa11f75711ec8a6aa4bb6d41b622"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1485271047837335, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "BOOLEAN", 
+                                        "\u6e38\u620f\u6b63\u5728\u8fdb\u884c"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "BOOL_COMPARE", 
+                    "element_id": 1485271047837331, 
+                    "enable": true
+                }
+            ], 
+            "enabled": true, 
+            "event": [
+                [
+                    1366315470, 
+                    "this trigger is used to respond to the player's key press event, when the player presses the move key, the player's move state will be refreshed immediately", 
+                    1485271047, 
+                    "event_type"
+                ], 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                17
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2113069064000001, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                30
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2113069064000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                31
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2113069064000003, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                32
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2113069064000004, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                17
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2113069064000005, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_UP_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                30
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2113069064000006, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_UP_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                31
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2113069064000007, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_UP_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                32
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2113069064000008, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_UP_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "p_trigger_id": null, 
+            "trigger_id": 1485271047, 
+            "trigger_name": "\u73a9\u5bb6\u79fb\u52a8\u63a7\u5236", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    1485271047, 
+                    "\u73a9\u5bb6\u79fb\u52a8\u63a7\u5236"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    164937748, 
+                    "\u79fb\u52a8\u72b6\u6001\u66f4\u65b0"
+                ]
+            }
+        ], 
+        "is_sub_folder": false, 
+        "key": "7TIigIRQEe6yMWwkCM0y6J", 
+        "name": "\u73a9\u5bb6"
+    }
+}

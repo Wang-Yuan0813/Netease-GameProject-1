@@ -1,0 +1,19 @@
+{
+    "group": [], 
+    "key": -1, 
+    "key_order": {
+        "+KqwT4RQEe6AOmwkCM0y6G": 2, 
+        "05LQcJpBEe6S4GwkCM0y6H": 10, 
+        "2it4gJObEe6iR2wkCM0y6O": 5, 
+        "7TIigIRQEe6yMWwkCM0y6J": 1, 
+        "P0-HcI6NEe6Yx2wkCM0y6D": 3, 
+        "XIXLLnbjEe6V4mwkCM0y6H": 0, 
+        "kqMN3pnUEe6hYGwkCM0y6A": 6, 
+        "nmfFgJH1Ee6yY2wkCM0y6O": 4, 
+        "qEVN0ZpBEe6hLGwkCM0y6K": 8, 
+        "uAgvgJpBEe6zsmwkCM0y6B": 7, 
+        "x+PwXppBEe6W3GwkCM0y6I": 9
+    }, 
+    "name": "trigger", 
+    "sub_trigger": {}
+}

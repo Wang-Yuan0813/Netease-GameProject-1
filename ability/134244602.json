@@ -1,0 +1,243 @@
+{
+    "local_variable": {
+        "629010434": {
+            "variable_dict": {
+                "ANGLE": {
+                    "\u504f\u79fb\u540e\u5c04\u51fb\u65b9\u5411": 0.0, 
+                    "\u5b9e\u9645\u5c04\u51fb\u65b9\u5411": 0.0
+                }, 
+                "FLOAT": {
+                    "\u4f24\u5bb3\u91cf": 0.0
+                }, 
+                "INTEGER": {
+                    "\u53d7\u51fb\u58f0\u6548\u7f16\u53f7": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u4f24\u5bb3\u91cf": 0, 
+                "\u504f\u79fb\u540e\u5c04\u51fb\u65b9\u5411": 0, 
+                "\u53d7\u51fb\u58f0\u6548\u7f16\u53f7": 0, 
+                "\u5b9e\u9645\u5c04\u51fb\u65b9\u5411": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "293486595": {
+            "action": [
+                {
+                    "action_type": "STOP_ANIMATION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "attack1"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 293486595000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 293486595000001, 
+                    "enable": true, 
+                    "event_type": "ABILITY_CST_END"
+                }
+            ], 
+            "group_id": 134244602, 
+            "p_trigger_id": null, 
+            "trigger_id": 293486595, 
+            "trigger_name": "\u7ed3\u675f", 
+            "valid": true
+        }, 
+        "629010434": {
+            "action": [
+                {
+                    "action_type": "CREATE_UNIT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                134281169
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "GET_CLIENT_ROLE"
+                                }
+                            ], 
+                            "sub_type": "GET_PLAYER_POINTING_POS"
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        180.0
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_ANGLE_BY_FLOAT"
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 629010434981284, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 629010434000001, 
+                    "enable": true, 
+                    "event_type": "ABILITY_SP_END"
+                }
+            ], 
+            "group_id": 134244602, 
+            "p_trigger_id": null, 
+            "trigger_id": 629010434, 
+            "trigger_name": "\u51fa\u624b", 
+            "valid": true
+        }, 
+        "1954385921": {
+            "action": [
+                {
+                    "action_type": "PLAY_ANIMATION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "attack1"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.5
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                -1.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1954385921000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1954385921000001, 
+                    "enable": true, 
+                    "event_type": "ABILITY_PS_START"
+                }
+            ], 
+            "group_id": 134244602, 
+            "p_trigger_id": null, 
+            "trigger_id": 1954385921, 
+            "trigger_name": "\u5f00\u59cb", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    1954385921, 
+                    "\u5f00\u59cb"
+                ], 
+                [
+                    629010434, 
+                    "\u51fa\u624b"
+                ], 
+                [
+                    293486595, 
+                    "\u7ed3\u675f"
+                ]
+            ], 
+            "key": 134244602, 
+            "name": "134244602"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "AUDIO_KEY": {}, 
+        "PROJECTILE_ENTITY": {
+            "\u666e\u901a\u5b50\u5f39": 0
+        }, 
+        "SOUND_ENTITY": {}
+    }, 
+    "variable_group_info": [
+        [
+            "\u666e\u901a\u5b50\u5f39", 
+            "\u666e\u901a\u5b50\u5f39"
+        ]
+    ], 
+    "variable_length_dict": {
+        "\u666e\u901a\u5b50\u5f39": 0
+    }
+}

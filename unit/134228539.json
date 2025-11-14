@@ -1,0 +1,27 @@
+{
+    "local_variable": {}, 
+    "trigger_dict": {}, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [], 
+            "key": 134228539, 
+            "name": "134228539"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "PROJECTILE_ENTITY": {
+            "\u666e\u901a\u5b50\u5f39": 0
+        }
+    }, 
+    "variable_group_info": [
+        [
+            "\u666e\u901a\u5b50\u5f39", 
+            "\u666e\u901a\u5b50\u5f39"
+        ]
+    ], 
+    "variable_length_dict": {
+        "\u666e\u901a\u5b50\u5f39": 0
+    }
+}

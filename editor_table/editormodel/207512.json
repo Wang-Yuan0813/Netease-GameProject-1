@@ -1,0 +1,51 @@
+{
+    "describe": -925448344, 
+    "editor_res": false, 
+    "key": 207512, 
+    "map_name": "dm9_\u573a\u666f", 
+    "model_id": 557700, 
+    "name": 1550782012, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "\u5199\u5b9e", 
+            "\u79d1\u5e7b", 
+            "\u573a\u666f", 
+            "\u9053\u5177", 
+            "\u529f\u80fd\u9053\u5177", 
+            "\u84dd\u8272", 
+            "\u91d1\u5c5e", 
+            "\u4eea\u5668"
+        ]
+    }, 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.3, 
+            0.95
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/207512", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "release_hide": false, 
+    "res_identify": "all", 
+    "select_effect_scale": 0.3, 
+    "size": 1.0, 
+    "socket_info": {
+        "\u9876\u90e8": {
+            "__tuple__": true, 
+            "items": [
+                "\u9876\u90e8", 
+                "Scene Root", 
+                0.0, 
+                2.381598949432373, 
+                0.0
+            ]
+        }
+    }, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_207512"
+}
